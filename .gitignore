@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Output files
+outputs/*.html
+outputs/*.csv
+outputs/grafikler/*.png
+
+# Large model files (sadece küçük modelleri tutuyoruz)
+models/*.pkl
+!models/dl_model.pkl
+!models/ul_model.pkl
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data files (büyük dosyalar için)
+data/*.xlsx
+data/*.csv
+!data/ITU5GHucreBilgileri.xlsx
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp 

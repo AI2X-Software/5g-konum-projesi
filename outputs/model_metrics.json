@@ -1,0 +1,24 @@
+{
+    "DL": {
+        "rmse": 7.694729353406512e-05,
+        "mae": 2.660048510367054e-05,
+        "median_error": 1.7579027945743883e-05,
+        "percent_under_5m": 100.0,
+        "scenario": {
+            "environment": "unknown",
+            "los_probability": 0.0,
+            "difficulty_level": "medium"
+        }
+    },
+    "UL": {
+        "rmse": 8.644125458514252e-14,
+        "mae": 8.526512829121202e-14,
+        "median_error": 1.2224639458285405e-13,
+        "percent_under_5m": 100.0,
+        "scenario": {
+            "environment": "unknown",
+            "los_probability": 0.0,
+            "difficulty_level": "medium"
+        }
+    }
+}
