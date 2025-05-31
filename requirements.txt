@@ -1,14 +1,77 @@
-pandas>=1.3.0
-numpy>=1.20.0
-scikit-learn>=1.0.0
-xgboost>=1.5.0
-torch>=1.10.0
-geopy>=2.2.0
-matplotlib>=3.4.0
+# TEKNOFEST 2025 - 5G Konumlandırma Sistemi
+# Python bağımlılıkları
+
+# === Temel Veri İşleme ===
+pandas>=1.5.0
+numpy>=1.21.0
+openpyxl>=3.0.9  # Excel dosyaları için
+
+# === Makine Öğrenmesi ===
+scikit-learn>=1.1.0
+xgboost>=1.6.0
+torch>=1.12.0  # PyTorch (derin öğrenme için)
+
+# === Coğrafi Hesaplamalar ===
+geopy>=2.2.0  # Geodesic distance calculations
+folium>=0.14.0  # İnteraktif haritalar
+
+# === Görselleştirme ===
+matplotlib>=3.5.0
 seaborn>=0.11.0
-folium>=0.12.0
+plotly>=5.10.0  # İnteraktif grafikler (opsiyonel)
+
+# === Model Kaydetme/Yükleme ===
 joblib>=1.1.0
-openpyxl>=3.0.9
-geopandas>=0.10.0
-contextily>=1.2.0
-fiona>=1.8.0
+
+# === Coğrafi Veri İşleme (Kampüs Haritası için) ===
+geopandas>=0.11.0  # Shapefile desteği
+fiona>=1.8.0  # Geospatial data reading
+shapely>=1.8.0  # Geometric operations
+
+# === Performans ve Optimizasyon ===
+numba>=0.56.0  # JIT compilation (opsiyonel)
+
+# === Veri Analizi ===
+scipy>=1.8.0  # Scientific computing
+
+# === Progress Bars ===
+tqdm>=4.64.0  # İlerleme çubukları
+
+# === Jupyter Notebook Desteği (opsiyonel) ===
+jupyter>=1.0.0
+ipywidgets>=7.7.0
+
+# === Model Açıklanabilirliği (opsiyonel) ===
+# shap>=0.41.0  # Model explainability (manuel kurulum gerekli)
+
+# === Ek Araçlar ===
+requests>=2.28.0  # Web istekleri
+beautifulsoup4>=4.11.0  # HTML parsing (opsiyonel)
+
+# === Sistem Monitöring ===
+psutil>=5.9.0  # Sistem kaynak izleme (opsiyonel)
+
+# === Test ve Geliştirme ===
+pytest>=7.1.0  # Unit testing (opsiyonel)
+black>=22.0.0  # Code formatting (opsiyonel)
+
+# === Alternatif ML Kütüphaneleri (opsiyonel) ===
+# lightgbm>=3.3.0  # LightGBM
+# catboost>=1.0.0  # CatBoost
+
+# === Notlar ===
+# 1. Minimum Python sürümü: 3.8+
+# 2. Önerilen Python sürümü: 3.9+
+# 3. macOS kullanıcıları için: brew install libomp (XGBoost için)
+# 4. GDAL desteği için: conda install geopandas (önerilen)
+# 5. GPU desteği için: pip install torch --index-url https://download.pytorch.org/whl/cu118
+
+# === Kurulum Talimatları ===
+# pip install -r requirements.txt
+# veya
+# conda install --file requirements.txt
+
+# === Bilinen Uyumluluk Sorunları ===
+# - Windows'ta GDAL kurulumu zor olabilir
+# - Apple M1/M2 için conda kullanımı önerilir
+# - PyTorch GPU sürümü için ayrı kurulum gerekli

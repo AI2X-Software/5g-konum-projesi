@@ -1,0 +1,46 @@
+[
+    {
+        "model_name": "DL_Advanced",
+        "timestamp": 1748690136.804957,
+        "n_samples": 481,
+        "rmse": 0.0004566415837694177,
+        "mae": 0.0001466870152943612,
+        "median_error": 5.698928170967887e-05,
+        "max_error": 0.004453373648244414,
+        "min_error": 1.0380969632094805e-07,
+        "std_error": 0.0006025999757995281,
+        "r2_lat": 0.9683494834066443,
+        "r2_lon": 0.983616667061841,
+        "percent_under_5m": 100.0,
+        "percent_under_10m": 100.0,
+        "percent_under_50m": 100.0,
+        "percent_under_100m": 100.0,
+        "scenario": {
+            "environment": "unknown",
+            "los_probability": 0.0,
+            "difficulty_level": "medium"
+        }
+    },
+    {
+        "model_name": "UL_Advanced",
+        "timestamp": 1748690136.957066,
+        "n_samples": 4,
+        "rmse": 2.941108692786584e-07,
+        "mae": 2.8132147056325607e-07,
+        "median_error": 4.159355805927583e-07,
+        "max_error": 4.159355805927583e-07,
+        "min_error": 4.1593557892260184e-07,
+        "std_error": 7.231989486871224e-16,
+        "r2_lat": 0.0,
+        "r2_lon": 0.0,
+        "percent_under_5m": 100.0,
+        "percent_under_10m": 100.0,
+        "percent_under_50m": 100.0,
+        "percent_under_100m": 100.0,
+        "scenario": {
+            "environment": "unknown",
+            "los_probability": 0.0,
+            "difficulty_level": "medium"
+        }
+    }
+]
